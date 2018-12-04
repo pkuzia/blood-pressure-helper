@@ -1,0 +1,6 @@
+framework module Pods_Blood_pressure_helper {
+  umbrella header "Pods-Blood pressure helper-umbrella.h"
+
+  export *
+  module * { export * }
+}
