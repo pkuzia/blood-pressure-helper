@@ -8,45 +8,79 @@
 
 /* Begin PBXBuildFile section */
 		8D18D8EAF2998E8C7DE81C0D /* Pods_Blood_pressure_helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1E76FA7E824EC85F1C2446 /* Pods_Blood_pressure_helper.framework */; };
+		A82CA60321B91EFC00B1F513 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A82CA60221B91EFC00B1F513 /* Localizable.strings */; };
+		A8415F7721B92142009DF03A /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8415F7621B92142009DF03A /* LocalizedStrings.swift */; };
+		A8D19F6321B7D7DE00E3E644 /* ModuleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D19F6221B7D7DE00E3E644 /* ModuleCoordinator.swift */; };
+		A8D19F6521B7E58900E3E644 /* BaseViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D19F6421B7E58900E3E644 /* BaseViewNavigationController.swift */; };
+		A8D19F6721B7E5FA00E3E644 /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D19F6621B7E5FA00E3E644 /* StyleKit.swift */; };
+		A8D7BD9B21B6982D00778631 /* HeartHistoryDataManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD7921B6982D00778631 /* HeartHistoryDataManagerProtocols.swift */; };
+		A8D7BD9C21B6982D00778631 /* HeartHistoryDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD7A21B6982D00778631 /* HeartHistoryDataManager.swift */; };
+		A8D7BD9D21B6982D00778631 /* HeartHistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD7C21B6982D00778631 /* HeartHistoryPresenter.swift */; };
+		A8D7BD9E21B6982D00778631 /* HeartHistoryModuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD7D21B6982D00778631 /* HeartHistoryModuleDelegate.swift */; };
+		A8D7BD9F21B6982D00778631 /* HeartHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD7F21B6982D00778631 /* HeartHistoryViewController.swift */; };
+		A8D7BDA021B6982D00778631 /* HeartHistoryViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD8021B6982D00778631 /* HeartHistoryViewProtocols.swift */; };
+		A8D7BDA121B6982D00778631 /* HeartHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D7BD8121B6982D00778631 /* HeartHistory.storyboard */; };
+		A8D7BDA221B6982D00778631 /* HeartHistoryInteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD8321B6982D00778631 /* HeartHistoryInteractorProtocols.swift */; };
+		A8D7BDA321B6982D00778631 /* HeartHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD8421B6982D00778631 /* HeartHistoryInteractor.swift */; };
+		A8D7BDA421B6982D00778631 /* HeartHistoryRouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD8621B6982D00778631 /* HeartHistoryRouterInterface.swift */; };
+		A8D7BDA621B6982D00778631 /* HeartHistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD8821B6982D00778631 /* HeartHistoryRouter.swift */; };
+		A8D7BDA721B6982D00778631 /* NewHistoryItemDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD8B21B6982D00778631 /* NewHistoryItemDataManager.swift */; };
+		A8D7BDA821B6982D00778631 /* NewHistoryItemDataManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD8C21B6982D00778631 /* NewHistoryItemDataManagerProtocols.swift */; };
+		A8D7BDA921B6982D00778631 /* NewHistoryItemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD8E21B6982D00778631 /* NewHistoryItemPresenter.swift */; };
+		A8D7BDAA21B6982D00778631 /* NewHistoryItemModuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD8F21B6982D00778631 /* NewHistoryItemModuleDelegate.swift */; };
+		A8D7BDAB21B6982D00778631 /* NewHistoryItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D7BD9121B6982D00778631 /* NewHistoryItem.storyboard */; };
+		A8D7BDAC21B6982D00778631 /* NewHistoryItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD9221B6982D00778631 /* NewHistoryItemViewController.swift */; };
+		A8D7BDAD21B6982D00778631 /* NewHistoryItemViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD9321B6982D00778631 /* NewHistoryItemViewProtocols.swift */; };
+		A8D7BDAE21B6982D00778631 /* NewHistoryItemInteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD9521B6982D00778631 /* NewHistoryItemInteractorProtocols.swift */; };
+		A8D7BDAF21B6982D00778631 /* NewHistoryItemInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD9621B6982D00778631 /* NewHistoryItemInteractor.swift */; };
+		A8D7BDB021B6982D00778631 /* NewHistoryItemRouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD9821B6982D00778631 /* NewHistoryItemRouterInterface.swift */; };
+		A8D7BDB221B6982D00778631 /* NewHistoryItemRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BD9A21B6982D00778631 /* NewHistoryItemRouter.swift */; };
+		A8D7BDB621B69E0000778631 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BDB421B69E0000778631 /* BaseViewController.swift */; };
+		A8D7BDB721B69E0000778631 /* BaseViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BDB521B69E0000778631 /* BaseViewInput.swift */; };
+		A8D7BDBC21B6BA5400778631 /* PillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D7BDBB21B6BA5400778631 /* PillButton.swift */; };
 		A8EC9B0F21B6929C009A44F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B0E21B6929C009A44F3 /* AppDelegate.swift */; };
-		A8EC9B1121B6929C009A44F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B1021B6929C009A44F3 /* ViewController.swift */; };
-		A8EC9B1421B6929C009A44F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EC9B1221B6929C009A44F3 /* Main.storyboard */; };
 		A8EC9B1621B6929E009A44F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EC9B1521B6929E009A44F3 /* Assets.xcassets */; };
 		A8EC9B1921B6929E009A44F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EC9B1721B6929E009A44F3 /* LaunchScreen.storyboard */; };
-		A8EC9B3721B694CE009A44F3 /* HeartModuleDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B2721B694CE009A44F3 /* HeartModuleDataManager.swift */; };
-		A8EC9B3821B694CE009A44F3 /* HeartModuleDataManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B2821B694CE009A44F3 /* HeartModuleDataManagerProtocols.swift */; };
-		A8EC9B3921B694CE009A44F3 /* HeartModuleModuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B2A21B694CE009A44F3 /* HeartModuleModuleDelegate.swift */; };
-		A8EC9B3A21B694CE009A44F3 /* HeartModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B2B21B694CE009A44F3 /* HeartModulePresenter.swift */; };
-		A8EC9B3B21B694CE009A44F3 /* HeartModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B2D21B694CE009A44F3 /* HeartModuleViewController.swift */; };
-		A8EC9B3C21B694CE009A44F3 /* HeartModuleViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B2E21B694CE009A44F3 /* HeartModuleViewProtocols.swift */; };
-		A8EC9B3D21B694CE009A44F3 /* HeartModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EC9B2F21B694CE009A44F3 /* HeartModule.storyboard */; };
-		A8EC9B3E21B694CE009A44F3 /* HeartModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B3121B694CE009A44F3 /* HeartModuleInteractor.swift */; };
-		A8EC9B3F21B694CE009A44F3 /* HeartModuleInteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B3221B694CE009A44F3 /* HeartModuleInteractorProtocols.swift */; };
-		A8EC9B4021B694CE009A44F3 /* HeartModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B3421B694CE009A44F3 /* HeartModuleRouter.swift */; };
-		A8EC9B4121B694CE009A44F3 /* HeartModuleRouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC9B3521B694CE009A44F3 /* HeartModuleRouterInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C1E76FA7E824EC85F1C2446 /* Pods_Blood_pressure_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blood_pressure_helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76054A75BFB3BD6CEED0A815 /* Pods-Blood pressure helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blood pressure helper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blood pressure helper/Pods-Blood pressure helper.debug.xcconfig"; sourceTree = "<group>"; };
+		A82CA60221B91EFC00B1F513 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A8415F7621B92142009DF03A /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		A8D19F6221B7D7DE00E3E644 /* ModuleCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleCoordinator.swift; sourceTree = "<group>"; };
+		A8D19F6421B7E58900E3E644 /* BaseViewNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewNavigationController.swift; sourceTree = "<group>"; };
+		A8D19F6621B7E5FA00E3E644 /* StyleKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
+		A8D7BD7921B6982D00778631 /* HeartHistoryDataManagerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryDataManagerProtocols.swift; sourceTree = "<group>"; };
+		A8D7BD7A21B6982D00778631 /* HeartHistoryDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryDataManager.swift; sourceTree = "<group>"; };
+		A8D7BD7C21B6982D00778631 /* HeartHistoryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryPresenter.swift; sourceTree = "<group>"; };
+		A8D7BD7D21B6982D00778631 /* HeartHistoryModuleDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryModuleDelegate.swift; sourceTree = "<group>"; };
+		A8D7BD7F21B6982D00778631 /* HeartHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryViewController.swift; sourceTree = "<group>"; };
+		A8D7BD8021B6982D00778631 /* HeartHistoryViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryViewProtocols.swift; sourceTree = "<group>"; };
+		A8D7BD8121B6982D00778631 /* HeartHistory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HeartHistory.storyboard; sourceTree = "<group>"; };
+		A8D7BD8321B6982D00778631 /* HeartHistoryInteractorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryInteractorProtocols.swift; sourceTree = "<group>"; };
+		A8D7BD8421B6982D00778631 /* HeartHistoryInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryInteractor.swift; sourceTree = "<group>"; };
+		A8D7BD8621B6982D00778631 /* HeartHistoryRouterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryRouterInterface.swift; sourceTree = "<group>"; };
+		A8D7BD8821B6982D00778631 /* HeartHistoryRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartHistoryRouter.swift; sourceTree = "<group>"; };
+		A8D7BD8B21B6982D00778631 /* NewHistoryItemDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemDataManager.swift; sourceTree = "<group>"; };
+		A8D7BD8C21B6982D00778631 /* NewHistoryItemDataManagerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemDataManagerProtocols.swift; sourceTree = "<group>"; };
+		A8D7BD8E21B6982D00778631 /* NewHistoryItemPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemPresenter.swift; sourceTree = "<group>"; };
+		A8D7BD8F21B6982D00778631 /* NewHistoryItemModuleDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemModuleDelegate.swift; sourceTree = "<group>"; };
+		A8D7BD9121B6982D00778631 /* NewHistoryItem.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewHistoryItem.storyboard; sourceTree = "<group>"; };
+		A8D7BD9221B6982D00778631 /* NewHistoryItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemViewController.swift; sourceTree = "<group>"; };
+		A8D7BD9321B6982D00778631 /* NewHistoryItemViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemViewProtocols.swift; sourceTree = "<group>"; };
+		A8D7BD9521B6982D00778631 /* NewHistoryItemInteractorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemInteractorProtocols.swift; sourceTree = "<group>"; };
+		A8D7BD9621B6982D00778631 /* NewHistoryItemInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemInteractor.swift; sourceTree = "<group>"; };
+		A8D7BD9821B6982D00778631 /* NewHistoryItemRouterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemRouterInterface.swift; sourceTree = "<group>"; };
+		A8D7BD9A21B6982D00778631 /* NewHistoryItemRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHistoryItemRouter.swift; sourceTree = "<group>"; };
+		A8D7BDB421B69E0000778631 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A8D7BDB521B69E0000778631 /* BaseViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewInput.swift; sourceTree = "<group>"; };
+		A8D7BDBB21B6BA5400778631 /* PillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillButton.swift; sourceTree = "<group>"; };
 		A8EC9B0B21B6929C009A44F3 /* Blood pressure helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blood pressure helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EC9B0E21B6929C009A44F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8EC9B1021B6929C009A44F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8EC9B1321B6929C009A44F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8EC9B1521B6929E009A44F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8EC9B1821B6929E009A44F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8EC9B1A21B6929E009A44F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8EC9B2721B694CE009A44F3 /* HeartModuleDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModuleDataManager.swift; sourceTree = "<group>"; };
-		A8EC9B2821B694CE009A44F3 /* HeartModuleDataManagerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModuleDataManagerProtocols.swift; sourceTree = "<group>"; };
-		A8EC9B2A21B694CE009A44F3 /* HeartModuleModuleDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModuleModuleDelegate.swift; sourceTree = "<group>"; };
-		A8EC9B2B21B694CE009A44F3 /* HeartModulePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModulePresenter.swift; sourceTree = "<group>"; };
-		A8EC9B2D21B694CE009A44F3 /* HeartModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModuleViewController.swift; sourceTree = "<group>"; };
-		A8EC9B2E21B694CE009A44F3 /* HeartModuleViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModuleViewProtocols.swift; sourceTree = "<group>"; };
-		A8EC9B2F21B694CE009A44F3 /* HeartModule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HeartModule.storyboard; sourceTree = "<group>"; };
-		A8EC9B3121B694CE009A44F3 /* HeartModuleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModuleInteractor.swift; sourceTree = "<group>"; };
-		A8EC9B3221B694CE009A44F3 /* HeartModuleInteractorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModuleInteractorProtocols.swift; sourceTree = "<group>"; };
-		A8EC9B3421B694CE009A44F3 /* HeartModuleRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModuleRouter.swift; sourceTree = "<group>"; };
-		A8EC9B3521B694CE009A44F3 /* HeartModuleRouterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartModuleRouterInterface.swift; sourceTree = "<group>"; };
 		A95B41F3031645E74CD2D186 /* Pods-Blood pressure helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blood pressure helper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blood pressure helper/Pods-Blood pressure helper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +96,169 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8D19F6121B7D7D300E3E644 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				A8D19F6221B7D7DE00E3E644 /* ModuleCoordinator.swift */,
+				A8D19F6621B7E5FA00E3E644 /* StyleKit.swift */,
+				A8415F7621B92142009DF03A /* LocalizedStrings.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		A8D7BD7721B6982D00778631 /* HeartHistoryModule */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD7821B6982D00778631 /* DataManager */,
+				A8D7BD8221B6982D00778631 /* Interactor */,
+				A8D7BD8521B6982D00778631 /* Router */,
+				A8D7BD7B21B6982D00778631 /* Presenter */,
+				A8D7BD7E21B6982D00778631 /* View */,
+			);
+			path = HeartHistoryModule;
+			sourceTree = "<group>";
+		};
+		A8D7BD7821B6982D00778631 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD7921B6982D00778631 /* HeartHistoryDataManagerProtocols.swift */,
+				A8D7BD7A21B6982D00778631 /* HeartHistoryDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		A8D7BD7B21B6982D00778631 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD7C21B6982D00778631 /* HeartHistoryPresenter.swift */,
+				A8D7BD7D21B6982D00778631 /* HeartHistoryModuleDelegate.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A8D7BD7E21B6982D00778631 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD7F21B6982D00778631 /* HeartHistoryViewController.swift */,
+				A8D7BD8021B6982D00778631 /* HeartHistoryViewProtocols.swift */,
+				A8D7BD8121B6982D00778631 /* HeartHistory.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8D7BD8221B6982D00778631 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD8321B6982D00778631 /* HeartHistoryInteractorProtocols.swift */,
+				A8D7BD8421B6982D00778631 /* HeartHistoryInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A8D7BD8521B6982D00778631 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD8621B6982D00778631 /* HeartHistoryRouterInterface.swift */,
+				A8D7BD8821B6982D00778631 /* HeartHistoryRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A8D7BD8921B6982D00778631 /* NewHistoryItemModule */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD8A21B6982D00778631 /* DataManager */,
+				A8D7BD9421B6982D00778631 /* Interactor */,
+				A8D7BD9721B6982D00778631 /* Router */,
+				A8D7BD8D21B6982D00778631 /* Presenter */,
+				A8D7BD9021B6982D00778631 /* View */,
+			);
+			path = NewHistoryItemModule;
+			sourceTree = "<group>";
+		};
+		A8D7BD8A21B6982D00778631 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD8B21B6982D00778631 /* NewHistoryItemDataManager.swift */,
+				A8D7BD8C21B6982D00778631 /* NewHistoryItemDataManagerProtocols.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		A8D7BD8D21B6982D00778631 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD8E21B6982D00778631 /* NewHistoryItemPresenter.swift */,
+				A8D7BD8F21B6982D00778631 /* NewHistoryItemModuleDelegate.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A8D7BD9021B6982D00778631 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD9221B6982D00778631 /* NewHistoryItemViewController.swift */,
+				A8D7BD9321B6982D00778631 /* NewHistoryItemViewProtocols.swift */,
+				A8D7BD9121B6982D00778631 /* NewHistoryItem.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8D7BD9421B6982D00778631 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD9521B6982D00778631 /* NewHistoryItemInteractorProtocols.swift */,
+				A8D7BD9621B6982D00778631 /* NewHistoryItemInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A8D7BD9721B6982D00778631 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BD9821B6982D00778631 /* NewHistoryItemRouterInterface.swift */,
+				A8D7BD9A21B6982D00778631 /* NewHistoryItemRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A8D7BDB321B69E0000778631 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BDB421B69E0000778631 /* BaseViewController.swift */,
+				A8D7BDB521B69E0000778631 /* BaseViewInput.swift */,
+				A8D19F6421B7E58900E3E644 /* BaseViewNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A8D7BDB821B6B9B600778631 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BDB321B69E0000778631 /* Base */,
+				A8D7BD7721B6982D00778631 /* HeartHistoryModule */,
+				A8D7BD8921B6982D00778631 /* NewHistoryItemModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A8D7BDB921B6B9C000778631 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A8D19F6121B7D7D300E3E644 /* Others */,
+				A8D7BDBA21B6BA2500778631 /* Subclasses */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A8D7BDBA21B6BA2500778631 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7BDBB21B6BA5400778631 /* PillButton.swift */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
 		A8EC9B0221B6929C009A44F3 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +283,6 @@
 				A8EC9B2221B6944C009A44F3 /* Classes */,
 				A8EC9B2121B69437009A44F3 /* Supporting Files */,
 				A8EC9B2021B6941F009A44F3 /* Resources */,
-				A8EC9B1021B6929C009A44F3 /* ViewController.swift */,
 			);
 			path = "Blood pressure helper";
 			sourceTree = "<group>";
@@ -94,9 +290,9 @@
 		A8EC9B2021B6941F009A44F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A8EC9B1221B6929C009A44F3 /* Main.storyboard */,
 				A8EC9B1521B6929E009A44F3 /* Assets.xcassets */,
 				A8EC9B1721B6929E009A44F3 /* LaunchScreen.storyboard */,
+				A82CA60221B91EFC00B1F513 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -112,68 +308,11 @@
 		A8EC9B2221B6944C009A44F3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A8EC9B2521B694CE009A44F3 /* HeartModuleModule */,
+				A8D7BDB921B6B9C000778631 /* Common */,
+				A8D7BDB821B6B9B600778631 /* Modules */,
 				A8EC9B0E21B6929C009A44F3 /* AppDelegate.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		A8EC9B2521B694CE009A44F3 /* HeartModuleModule */ = {
-			isa = PBXGroup;
-			children = (
-				A8EC9B2621B694CE009A44F3 /* DataManager */,
-				A8EC9B2921B694CE009A44F3 /* Presenter */,
-				A8EC9B3321B694CE009A44F3 /* Router */,
-				A8EC9B3021B694CE009A44F3 /* Interactor */,
-				A8EC9B2C21B694CE009A44F3 /* View */,
-			);
-			path = HeartModuleModule;
-			sourceTree = "<group>";
-		};
-		A8EC9B2621B694CE009A44F3 /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				A8EC9B2721B694CE009A44F3 /* HeartModuleDataManager.swift */,
-				A8EC9B2821B694CE009A44F3 /* HeartModuleDataManagerProtocols.swift */,
-			);
-			path = DataManager;
-			sourceTree = "<group>";
-		};
-		A8EC9B2921B694CE009A44F3 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				A8EC9B2A21B694CE009A44F3 /* HeartModuleModuleDelegate.swift */,
-				A8EC9B2B21B694CE009A44F3 /* HeartModulePresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		A8EC9B2C21B694CE009A44F3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A8EC9B2D21B694CE009A44F3 /* HeartModuleViewController.swift */,
-				A8EC9B2E21B694CE009A44F3 /* HeartModuleViewProtocols.swift */,
-				A8EC9B2F21B694CE009A44F3 /* HeartModule.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A8EC9B3021B694CE009A44F3 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				A8EC9B3121B694CE009A44F3 /* HeartModuleInteractor.swift */,
-				A8EC9B3221B694CE009A44F3 /* HeartModuleInteractorProtocols.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		A8EC9B3321B694CE009A44F3 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				A8EC9B3421B694CE009A44F3 /* HeartModuleRouter.swift */,
-				A8EC9B3521B694CE009A44F3 /* HeartModuleRouterInterface.swift */,
-			);
-			path = Router;
 			sourceTree = "<group>";
 		};
 		DB3BD1A1F46F66FE6BDBF505 /* Pods */ = {
@@ -253,10 +392,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82CA60321B91EFC00B1F513 /* Localizable.strings in Resources */,
+				A8D7BDA121B6982D00778631 /* HeartHistory.storyboard in Resources */,
 				A8EC9B1921B6929E009A44F3 /* LaunchScreen.storyboard in Resources */,
 				A8EC9B1621B6929E009A44F3 /* Assets.xcassets in Resources */,
-				A8EC9B1421B6929C009A44F3 /* Main.storyboard in Resources */,
-				A8EC9B3D21B694CE009A44F3 /* HeartModule.storyboard in Resources */,
+				A8D7BDAB21B6982D00778631 /* NewHistoryItem.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,14 +410,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Blood pressure helper/Pods-Blood pressure helper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,32 +454,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8EC9B4021B694CE009A44F3 /* HeartModuleRouter.swift in Sources */,
-				A8EC9B3821B694CE009A44F3 /* HeartModuleDataManagerProtocols.swift in Sources */,
-				A8EC9B3921B694CE009A44F3 /* HeartModuleModuleDelegate.swift in Sources */,
-				A8EC9B1121B6929C009A44F3 /* ViewController.swift in Sources */,
-				A8EC9B3C21B694CE009A44F3 /* HeartModuleViewProtocols.swift in Sources */,
-				A8EC9B3B21B694CE009A44F3 /* HeartModuleViewController.swift in Sources */,
-				A8EC9B3721B694CE009A44F3 /* HeartModuleDataManager.swift in Sources */,
+				A8D7BDBC21B6BA5400778631 /* PillButton.swift in Sources */,
+				A8D7BDA821B6982D00778631 /* NewHistoryItemDataManagerProtocols.swift in Sources */,
+				A8D7BDAD21B6982D00778631 /* NewHistoryItemViewProtocols.swift in Sources */,
+				A8D7BDAE21B6982D00778631 /* NewHistoryItemInteractorProtocols.swift in Sources */,
+				A8D7BD9D21B6982D00778631 /* HeartHistoryPresenter.swift in Sources */,
+				A8D19F6321B7D7DE00E3E644 /* ModuleCoordinator.swift in Sources */,
+				A8D7BDB221B6982D00778631 /* NewHistoryItemRouter.swift in Sources */,
+				A8D7BDA321B6982D00778631 /* HeartHistoryInteractor.swift in Sources */,
+				A8D7BDB721B69E0000778631 /* BaseViewInput.swift in Sources */,
+				A8D19F6721B7E5FA00E3E644 /* StyleKit.swift in Sources */,
+				A8D7BD9C21B6982D00778631 /* HeartHistoryDataManager.swift in Sources */,
+				A8D7BDA021B6982D00778631 /* HeartHistoryViewProtocols.swift in Sources */,
+				A8D7BDAF21B6982D00778631 /* NewHistoryItemInteractor.swift in Sources */,
+				A8D7BDAC21B6982D00778631 /* NewHistoryItemViewController.swift in Sources */,
+				A8D19F6521B7E58900E3E644 /* BaseViewNavigationController.swift in Sources */,
+				A8D7BD9F21B6982D00778631 /* HeartHistoryViewController.swift in Sources */,
+				A8D7BDA921B6982D00778631 /* NewHistoryItemPresenter.swift in Sources */,
 				A8EC9B0F21B6929C009A44F3 /* AppDelegate.swift in Sources */,
-				A8EC9B3F21B694CE009A44F3 /* HeartModuleInteractorProtocols.swift in Sources */,
-				A8EC9B3A21B694CE009A44F3 /* HeartModulePresenter.swift in Sources */,
-				A8EC9B4121B694CE009A44F3 /* HeartModuleRouterInterface.swift in Sources */,
-				A8EC9B3E21B694CE009A44F3 /* HeartModuleInteractor.swift in Sources */,
+				A8415F7721B92142009DF03A /* LocalizedStrings.swift in Sources */,
+				A8D7BDB621B69E0000778631 /* BaseViewController.swift in Sources */,
+				A8D7BDA621B6982D00778631 /* HeartHistoryRouter.swift in Sources */,
+				A8D7BD9B21B6982D00778631 /* HeartHistoryDataManagerProtocols.swift in Sources */,
+				A8D7BDA221B6982D00778631 /* HeartHistoryInteractorProtocols.swift in Sources */,
+				A8D7BDA421B6982D00778631 /* HeartHistoryRouterInterface.swift in Sources */,
+				A8D7BDAA21B6982D00778631 /* NewHistoryItemModuleDelegate.swift in Sources */,
+				A8D7BD9E21B6982D00778631 /* HeartHistoryModuleDelegate.swift in Sources */,
+				A8D7BDA721B6982D00778631 /* NewHistoryItemDataManager.swift in Sources */,
+				A8D7BDB021B6982D00778631 /* NewHistoryItemRouterInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A8EC9B1221B6929C009A44F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8EC9B1321B6929C009A44F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A8EC9B1721B6929E009A44F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -468,15 +620,17 @@
 			baseConfigurationReference = 76054A75BFB3BD6CEED0A815 /* Pods-Blood pressure helper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ATFEU26LMZ;
-				INFOPLIST_FILE = "Blood pressure helper/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C6P2EMH7KR;
+				INFOPLIST_FILE = "$(SRCROOT)/Blood pressure helper/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "codifox.Blood-pressure-helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard Profile";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -487,15 +641,17 @@
 			baseConfigurationReference = A95B41F3031645E74CD2D186 /* Pods-Blood pressure helper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ATFEU26LMZ;
-				INFOPLIST_FILE = "Blood pressure helper/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C6P2EMH7KR;
+				INFOPLIST_FILE = "$(SRCROOT)/Blood pressure helper/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "codifox.Blood-pressure-helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard Profile";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

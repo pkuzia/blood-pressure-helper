@@ -1,5 +1,5 @@
 //
-//  HeartModuleViewProtocols.swift
+//  NewHistoryItemViewProtocols.swift
 //  Blood pressure helper
 //
 //  Created by Przemysław Kuzia on 04/12/2018.
@@ -9,21 +9,21 @@
 import Foundation
 
 /* Presenter to View */
-protocol HeartModuleViewInput: BaseViewInput {
+protocol NewHistoryItemViewInput: BaseViewInput {
     
     // MARK: Properties
     
-    var viewOutput: HeartModuleViewOutput? { get set }
+    var viewOutput: NewHistoryItemViewOutput? { get set }
 
     // MARK: Methods
 }
 
 /* View to Presenter */
-protocol HeartModuleViewOutput: class {
+protocol NewHistoryItemViewOutput: class {
     
     // MARK: Properties
     
-    var delegate: HeartModuleModuleDelegate? { get set }
+    var delegate: NewHistoryItemModuleDelegate? { get set }
 
     // MARK: Methods
 }

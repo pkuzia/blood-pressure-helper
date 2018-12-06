@@ -8,5 +8,7 @@ target 'Blood pressure helper' do
 pod 'SwifterSwift'
 pod 'IQKeyboardManagerSwift'
 pod 'SkyFloatingLabelTextField'
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 
 end

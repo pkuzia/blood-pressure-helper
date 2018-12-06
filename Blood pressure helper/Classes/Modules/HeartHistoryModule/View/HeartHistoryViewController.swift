@@ -1,5 +1,5 @@
 //
-//  HeartModuleViewController.swift
+//  HeartHistoryViewController.swift
 //  Blood pressure helper
 //
 //  Created by Przemysław Kuzia on 04/12/2018.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class HeartModuleViewController: BaseViewController {
+class HeartHistoryViewController: BaseViewController {
     
     // MARK: Outlets
 
     // MARK: Properties
     
-    var viewOutput: HeartModuleViewOutput?
+    var viewOutput: HeartHistoryViewOutput?
 
     // MARK: ViewInput stored properties
 
@@ -22,16 +22,22 @@ class HeartModuleViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        initUI()
+        viewOutput?.viewDidLoad()
     }
 
     // MARK: Appearance
+    
+    private func initUI() {
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+    }
 
     // MARK: User Interaction
 
     //MARK: Additional Helpers
 }
 
-extension HeartModuleViewController: HeartModuleViewInput {
+extension HeartHistoryViewController: HeartHistoryViewInput {
     
     // MARK: Computed properties
 

@@ -1,15 +1,15 @@
 //
-//  HeartModuleRouterInterface.swift
+//  NewHistoryItemModuleDelegate.swift
 //  Blood pressure helper
 //
 //  Created by Przemysław Kuzia on 04/12/2018.
 //  Copyright © 2018 CodiFox. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-/* Presenter to Router */
-protocol HeartModuleRouterInterface: class {
+/* This module Presenter to presenting module Presenter (delegate of this Module) */
+protocol NewHistoryItemModuleDelegate: class {
     
     // MARK: Properties
 

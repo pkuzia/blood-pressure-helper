@@ -1,5 +1,5 @@
 //
-//  HeartModuleDataManagerProtocols.swift
+//  NewHistoryItemDataManagerProtocols.swift
 //  Blood pressure helper
 //
 //  Created by Przemysław Kuzia on 04/12/2018.
@@ -9,7 +9,7 @@
 import Foundation
 
 /* Interactor to DataManager */
-protocol HeartModuleDataManagerInput: class {
+protocol NewHistoryItemDataManagerInput: class {
     
     // MARK: Properties
 
@@ -17,7 +17,7 @@ protocol HeartModuleDataManagerInput: class {
 }
 
 // DataManager to Interactor
-protocol HeartModuleDataManagerOutput: class {
+protocol NewHistoryItemDataManagerOutput: class {
     
     // MARK: Properties
 

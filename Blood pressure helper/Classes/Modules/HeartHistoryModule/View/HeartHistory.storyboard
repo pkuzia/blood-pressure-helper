@@ -13,7 +13,7 @@
         <!--viper Module Name View Controller-->
         <scene sceneID="hSV-Go-31F">
             <objects>
-                <viewController storyboardIdentifier="HeartModuleViewControllerID" id="PkQ-LR-dt8" customClass="HeartModuleViewController" customModule="ViperModuleTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HeartHistoryViewControllerID" id="PkQ-LR-dt8" customClass="HeartHistoryViewController" customModule="ViperModuleTemplate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cJf-uC-QFk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

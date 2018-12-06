@@ -1,5 +1,5 @@
 //
-//  HeartModuleDataManager.swift
+//  NewHistoryItemDataManager.swift
 //  Blood pressure helper
 //
 //  Created by Przemysław Kuzia on 04/12/2018.
@@ -8,16 +8,16 @@
 
 import Foundation
 
-class HeartModuleDataManager {
+class NewHistoryItemDataManager {
     
     // MARK: Properties
     
-    weak var dataManagerOutput: HeartModuleDataManagerOutput?
+    weak var dataManagerOutput: NewHistoryItemDataManagerOutput?
 
     // MARK: Stored properties
 }
 
-extension HeartModuleDataManager: HeartModuleDataManagerInput {
+extension NewHistoryItemDataManager: NewHistoryItemDataManagerInput {
     
     // MARK: Computed properties
 

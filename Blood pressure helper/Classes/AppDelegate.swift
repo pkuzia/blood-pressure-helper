@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         IQKeyboardManager.shared.enable = true
         
+        ModuleCoordinator.shared.configureInitialViewController(for: self)
         return true
     }
 

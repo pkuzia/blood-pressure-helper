@@ -1,5 +1,5 @@
 //
-//  HeartModulePresenter.swift
+//  NewHistoryItemPresenter.swift
 //  Blood pressure helper
 //
 //  Created by Przemysław Kuzia on 04/12/2018.
@@ -8,15 +8,15 @@
 
 import Foundation
 
-class HeartModulePresenter {
+class NewHistoryItemPresenter {
     
     // MARK: Properties
     
-    weak var delegate: HeartModuleModuleDelegate?
+    weak var delegate: NewHistoryItemModuleDelegate?
 
-    private (set) var router: HeartModuleRouter
-    private (set) var interactor: HeartModuleInteractorInput
-    weak var view: HeartModuleViewInput?
+    private (set) var router: NewHistoryItemRouter
+    private (set) var interactor: NewHistoryItemInteractorInput
+    weak var view: NewHistoryItemViewInput?
 
     // MARK: PresenterOutput stored properties
 
@@ -24,20 +24,20 @@ class HeartModulePresenter {
 
     // MARK: Lifecycle
     
-    init(interactor: HeartModuleInteractor, router: HeartModuleRouter) {
+    init(interactor: NewHistoryItemInteractor, router: NewHistoryItemRouter) {
         self.interactor = interactor
         self.router = router
     }
 }
 
-extension HeartModulePresenter: HeartModuleInteractorOutput {
+extension NewHistoryItemPresenter: NewHistoryItemInteractorOutput {
     
     // MARK: Computed properties
 
     // MARK: Methods
 }
 
-extension HeartModulePresenter: HeartModuleViewOutput {
+extension NewHistoryItemPresenter: NewHistoryItemViewOutput {
     
     // MARK: Computed properties
 

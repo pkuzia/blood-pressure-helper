@@ -1,5 +1,5 @@
 //
-//  HeartModuleInteractor.swift
+//  HeartHistoryInteractor.swift
 //  Blood pressure helper
 //
 //  Created by Przemysław Kuzia on 04/12/2018.
@@ -8,12 +8,12 @@
 
 import Foundation
 
-class HeartModuleInteractor {
+class HeartHistoryInteractor {
     
     // MARK: Properties
     
-    fileprivate (set) var dataManagerInput: HeartModuleDataManagerInput
-    weak var interactorOutput: HeartModuleInteractorOutput?
+    fileprivate (set) var dataManagerInput: HeartHistoryDataManagerInput
+    weak var interactorOutput: HeartHistoryInteractorOutput?
 
     // MARK: InteractorInput stored properties
 
@@ -21,19 +21,19 @@ class HeartModuleInteractor {
 
     // MARK: Lifecycle
     
-    init(dataManager: HeartModuleDataManagerInput = HeartModuleDataManager()) {
+    init(dataManager: HeartHistoryDataManagerInput = HeartHistoryDataManager()) {
         self.dataManagerInput = dataManager
     }
 }
 
-extension HeartModuleInteractor: HeartModuleInteractorInput {
+extension HeartHistoryInteractor: HeartHistoryInteractorInput {
     
     // MARK: Computed properties
 
     // MARK: Methods
 }
 
-extension HeartModuleInteractor: HeartModuleDataManagerOutput {
+extension HeartHistoryInteractor: HeartHistoryDataManagerOutput {
     
     // MARK: Computed properties
 
